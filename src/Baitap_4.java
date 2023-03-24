@@ -39,7 +39,7 @@ public class Baitap_4 {
                 break;// End the game
             }
             System.out.println("Bạn chọn sai rồi nhập lại đi: ");
-            n = Integer.parseInt(new Scanner(System.in).nextLine());
+            n = new Scanner(System.in).nextInt();
         }
     }
 
